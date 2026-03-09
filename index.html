@@ -1,0 +1,574 @@
+<!doctype html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>wahda.web — Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <!-- NAVBAR -->
+    <nav class="navbar">
+      <div class="navbar__inner">
+        <div class="navbar__logo">
+          <span class="dot"></span>
+          wahda.web
+        </div>
+
+        <ul class="navbar__menu">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About Me</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+
+        <div class="navbar__cta">
+          <button
+            type="button"
+            id="theme-toggle"
+            class="theme-toggle"
+            aria-label="Toggle dark mode"
+          >
+            ☀️
+          </button>
+
+          <a
+            class="btn-hire"
+            href="https://wa.me/6281284502849?text=Halo%20Wahda,%20saya%20tertarik%20dengan%20portfolio%20kamu.%20Boleh%20kita%20diskusi%20lebih%20lanjut?"
+            target="_blank"
+            rel="noopener"
+          >
+            Hire Me
+          </a>
+        </div>
+      </div>
+    </nav>
+
+    <!-- HOME -->
+    <header class="home section" id="home">
+      <div class="home__bg"></div>
+
+      <div class="container home__inner">
+        <p class="pill">Available for Work</p>
+
+        <h1 class="home__title">
+          Halo, Saya
+          <span class="home__name">Wahda Alya</span>
+          <br />
+          <span class="home__role">Web Developer</span>
+        </h1>
+
+        <p class="home__desc">
+          Saya membangun website yang cepat, rapi, responsif, dan enak dipakai—dengan tampilan
+          elegan dan profesional, serta pengalaman pengguna yang nyaman di semua perangkat.
+        </p>
+
+        <div class="home__actions">
+          <a class="btn-main" href="#portfolio">View Portfolio</a>
+          <a class="btn-outline" href="#contact">Contact Me</a>
+        </div>
+
+        <div class="home__stats">
+          <article class="stat-card">
+            <h3 class="stat-card__number" data-target="6">0</h3>
+            <p class="stat-card__label">Skills Utama</p>
+          </article>
+
+          <article class="stat-card">
+            <h3 class="stat-card__number" data-target="6">0</h3>
+            <p class="stat-card__label">Project Portfolio</p>
+          </article>
+
+          <article class="stat-card">
+            <h3 class="stat-card__number" data-target="100">0</h3>
+            <p class="stat-card__label">Semangat Belajar</p>
+          </article>
+        </div>
+      </div>
+    </header>
+
+    <!-- ABOUT -->
+    <section class="about section" id="about">
+      <div class="container">
+        <h2 class="section-title">About Me</h2>
+        <p class="section-subtitle">Sedikit cerita tentang saya</p>
+
+        <div class="about__inner">
+          <div class="about__left">
+            <h3 class="about__small">👋 Halo! perkenalkan, saya</h3>
+
+            <h4 class="about__big">
+              <span class="name-gradient">Wahda Alya Sadira Siregar</span>
+            </h4>
+
+            <p class="about__desc">
+              Saya mahasiswi Sistem Informasi di Universitas Muhammadiyah Sumatera Utara (UMSU) yang
+              memiliki minat besar di dunia teknologi dan pengembangan digital. Saya suka belajar
+              lewat praktik langsung—mencoba, memperbaiki, dan mengembangkan sampai jadi versi yang
+              lebih baik.
+            </p>
+
+            <p class="about__desc about__desc--mini">Saya punya ketertarikan besar di bidang:</p>
+
+            <div class="interest-row">
+              <div class="interest-mini interest-mini--a">
+                <span class="interest-mini__icon">💻</span>
+                <div class="interest-mini__txt">
+                  <strong>Web Development</strong>
+                  <p>Membangun website yang nyaman digunakan.</p>
+                </div>
+              </div>
+
+              <div class="interest-mini interest-mini--c">
+                <span class="interest-mini__icon">📊</span>
+                <div class="interest-mini__txt">
+                  <strong>Data Analysis</strong>
+                  <p>Insight untuk dasar pengambilan keputusan.</p>
+                </div>
+              </div>
+
+              <div class="interest-mini interest-mini--b">
+                <span class="interest-mini__icon">🎨</span>
+                <div class="interest-mini__txt">
+                  <strong>UI Design</strong>
+                  <p>Tampilan clean, modern, dan user-friendly.</p>
+                </div>
+              </div>
+
+              <div class="interest-mini interest-mini--d">
+                <span class="interest-mini__icon">🧩</span>
+                <div class="interest-mini__txt">
+                  <strong>UX Design</strong>
+                  <p>
+                    Menyusun alur dan pengalaman pengguna agar website nyaman, jelas, dan mudah
+                    dipakai.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="about__right">
+            <div class="photo-glow">
+              <img class="photo-glow__img" src="images/profile.png" alt="Profile Wahda" />
+              <div class="photo-glow__info">
+                <h3>2409010210</h3>
+                <p>Mahasiswi Sistem Informasi</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SKILLS -->
+    <section class="skills section" id="skills">
+      <div class="container">
+        <h2 class="section-title">Skills</h2>
+        <p class="section-subtitle">Teknologi yang saya kuasai</p>
+
+        <div class="skills-grid3">
+          <article class="skill-card2">
+            <div class="skill-card2__icon">📄</div>
+            <h3 class="skill-card2__title">HTML5</h3>
+            <p class="skill-card2__desc">
+              Semantic markup, aksesibilitas, dan struktur dokumen yang baik.
+            </p>
+          </article>
+
+          <article class="skill-card2">
+            <div class="skill-card2__icon">🎨</div>
+            <h3 class="skill-card2__title">CSS3</h3>
+            <p class="skill-card2__desc">
+              Flexbox, Grid, animasi, dan responsive design untuk semua layar.
+            </p>
+          </article>
+
+          <article class="skill-card2">
+            <div class="skill-card2__icon">⚡</div>
+            <h3 class="skill-card2__title">JavaScript</h3>
+            <p class="skill-card2__desc">
+              DOM manipulation, logika interaktif, dan fitur sederhana berbasis event.
+            </p>
+          </article>
+
+          <article class="skill-card2">
+            <div class="skill-card2__icon">🔗</div>
+            <h3 class="skill-card2__title">Git & GitHub</h3>
+            <p class="skill-card2__desc">
+              Version control, branching, dan kolaborasi project dasar.
+            </p>
+          </article>
+
+          <article class="skill-card2">
+            <div class="skill-card2__icon">⚙️</div>
+            <h3 class="skill-card2__title">React</h3>
+            <p class="skill-card2__desc">
+              Component-based development dengan hooks dan state management.
+            </p>
+          </article>
+
+          <article class="skill-card2">
+            <div class="skill-card2__icon">🚀</div>
+            <h3 class="skill-card2__title">Performance</h3>
+            <p class="skill-card2__desc">
+              Optimasi loading, image compression, dan Core Web Vitals.
+            </p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- PORTFOLIO -->
+    <section class="portfolio" id="portfolio">
+      <div class="container">
+        <h2 class="section-title">Portfolio</h2>
+        <p class="section-subtitle">Project yang pernah saya buat</p>
+
+        <div class="portfolio__grid">
+          <article class="project-card project-card--withshot">
+            <div class="project-shot">
+              <img src="images/pencatattugas.png" alt="Tampilan Pencatat Tugas" />
+            </div>
+
+            <div class="project-card__top">
+              <div class="project-card__icon">📝</div>
+              <div>
+                <h3 class="project-card__title">Pencatat Tugas</h3>
+                <p class="project-card__meta">Web App — HTML • CSS • JavaScript</p>
+              </div>
+            </div>
+
+            <p class="project-card__desc">
+              Aplikasi pencatat tugas: tambah, edit, hapus, cari tugas, dan total tugas otomatis.
+            </p>
+
+            <div class="project-card__tags">
+              <span class="tag">HTML</span>
+              <span class="tag">CSS</span>
+              <span class="tag">JavaScript</span>
+              <span class="tag">LocalStorage</span>
+            </div>
+
+            <div class="project-card__actions">
+              <a
+                class="btn-main"
+                href="https://wahdaalya.github.io/Pencatat-Tugas/"
+                target="_blank"
+                rel="noopener"
+              >
+                View Project
+              </a>
+              <a
+                class="btn-outline"
+                href="https://github.com/wahdaalya/Pencatat-Tugas"
+                target="_blank"
+                rel="noopener"
+              >
+                Source Code
+              </a>
+            </div>
+          </article>
+
+          <article class="project-card project-card--withshot">
+            <div class="project-shot">
+              <img src="images/binary.png" alt="Tampilan BinaryTreeGUI" />
+            </div>
+
+            <div class="project-card__top">
+              <div class="project-card__icon">🌳</div>
+              <div>
+                <h3 class="project-card__title">BinaryTreeGUI</h3>
+                <p class="project-card__meta">Desktop App — Python (Tkinter)</p>
+              </div>
+            </div>
+
+            <p class="project-card__desc">
+              GUI visualisasi BST dengan fitur Insert, Delete, dan traversal
+              (Inorder/Preorder/Postorder).
+            </p>
+
+            <div class="project-card__tags">
+              <span class="tag">Python</span>
+              <span class="tag">Tkinter</span>
+              <span class="tag">BST</span>
+              <span class="tag">EXE</span>
+            </div>
+
+            <div class="project-card__actions">
+              <a
+                class="btn-main"
+                href="https://github.com/wahdaalya/binary-tree-GUI/releases/download/v1.0/BinaryTreeGUI.zip"
+                target="_blank"
+                rel="noopener"
+              >
+                Download
+              </a>
+              <a
+                class="btn-outline"
+                href="https://github.com/wahdaalya/binary-tree-GUI"
+                target="_blank"
+                rel="noopener"
+              >
+                Source Code
+              </a>
+            </div>
+          </article>
+
+          <article class="project-card project-card--withshot">
+            <div class="project-shot">
+              <img src="images/mockup.png" alt="Tampilan UI/UX Mockup Figma" />
+            </div>
+
+            <div class="project-card__top">
+              <div class="project-card__icon">🎨</div>
+              <div>
+                <h3 class="project-card__title">UI/UX Mockup (Figma)</h3>
+                <p class="project-card__meta">Design — Figma Prototype</p>
+              </div>
+            </div>
+
+            <p class="project-card__desc">
+              Prototype UI/UX di Figma (klik untuk melihat alur dan tampilan mockup).
+            </p>
+
+            <div class="project-card__tags">
+              <span class="tag">Figma</span>
+              <span class="tag">UI</span>
+              <span class="tag">UX</span>
+              <span class="tag">Prototype</span>
+            </div>
+
+            <div class="project-card__actions">
+              <a
+                class="btn-main"
+                href="https://www.figma.com/proto/To69cqpnx8FdHonEVV13S6/Mockup?page-id=0%3A1&node-id=1-2&p=f&viewport=304%2C146%2C0.9&t=537ILrPA2zsC7I0j-1&scaling=scale-down&content-scaling=fixed&starting-point-node-id=1%3A2"
+                target="_blank"
+                rel="noopener"
+              >
+                View
+              </a>
+            </div>
+          </article>
+
+          <article class="project-card project-card--withshot">
+            <div class="project-shot">
+              <img src="images/crud.png" alt="Tampilan CRUD Application" />
+            </div>
+
+            <div class="project-card__top">
+              <div class="project-card__icon">🗂️</div>
+              <div>
+                <h3 class="project-card__title">CRUD Application</h3>
+                <p class="project-card__meta">Desktop App — Form & Table</p>
+              </div>
+            </div>
+
+            <p class="project-card__desc">
+              Aplikasi CRUD GUI untuk mengelola data (Insert, Update, Delete, Clear) + opsi
+              Report/Print.
+            </p>
+
+            <div class="project-card__tags">
+              <span class="tag">CRUD</span>
+              <span class="tag">GUI</span>
+              <span class="tag">Database</span>
+            </div>
+
+            <div class="project-card__actions">
+              <a
+                class="btn-main"
+                href="https://www.youtube.com/watch?v=37keiKA_9Q4"
+                target="_blank"
+                rel="noopener"
+              >
+                View
+              </a>
+            </div>
+
+            <p class="project-card__note">Project tugas (desktop) — belum dipublikasikan online.</p>
+          </article>
+
+          <article class="project-card project-card--withshot">
+            <div class="project-shot">
+              <img src="images/web.png" alt="Tampilan Web Server Project" />
+            </div>
+
+            <div class="project-card__top">
+              <div class="project-card__icon">🖧</div>
+              <div>
+                <h3 class="project-card__title">Web Server (Tugas)</h3>
+                <p class="project-card__meta">Web Server — Hosting Lokal • IP LAN</p>
+              </div>
+            </div>
+
+            <p class="project-card__desc">
+              Deploy halaman web ke server dan diakses via alamat IP pada jaringan (LAN).
+            </p>
+
+            <div class="project-card__tags">
+              <span class="tag">Web Server</span>
+              <span class="tag">LAN</span>
+              <span class="tag">IP</span>
+              <span class="tag">Deploy</span>
+            </div>
+
+            <div class="project-card__actions">
+              <a class="btn-main" href="#">View</a>
+            </div>
+
+            <p class="project-card__note">Demo berjalan di jaringan lokal (contoh: 192.168.x.x).</p>
+          </article>
+
+          <article class="project-card project-card--withshot">
+            <div class="project-shot">
+              <img src="images/kasir.png" alt="Tampilan Aplikasi Kasir Java" />
+            </div>
+
+            <div class="project-card__top">
+              <div class="project-card__icon">🧾</div>
+              <div>
+                <h3 class="project-card__title">Aplikasi Kasir Sederhana</h3>
+                <p class="project-card__meta">Desktop App — Java (Swing) • NetBeans</p>
+              </div>
+            </div>
+
+            <p class="project-card__desc">
+              Menghitung total belanja, diskon, dan kembalian. Fitur: Hitung, Bersih Data, Keluar.
+            </p>
+
+            <div class="project-card__tags">
+              <span class="tag">Java</span>
+              <span class="tag">Swing GUI</span>
+              <span class="tag">NetBeans</span>
+              <span class="tag">Desktop</span>
+            </div>
+
+            <div class="project-card__actions">
+              <a class="btn-main" href="#">View</a>
+            </div>
+
+            <p class="project-card__note">Project tugas desktop — dijalankan offline.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section class="contact section" id="contact">
+      <div class="container">
+        <h2 class="contact__title">Contact Me</h2>
+
+        <div class="contact__card">
+          <form
+            class="contact__form"
+            id="contact-form"
+            action="mailto:wahdasiregar10@gmail.com"
+            method="post"
+            enctype="text/plain"
+          >
+            <input id="contact-name" type="text" name="name" placeholder="Your Name" required />
+            <input id="contact-email" type="email" name="email" placeholder="Your Email" required />
+            <textarea
+              id="contact-message"
+              name="message"
+              rows="6"
+              placeholder="Your Message"
+              required
+            ></textarea>
+            <button type="submit" class="contact__btn">Send Message</button>
+            <div id="form-feedback" class="form-feedback" aria-live="polite"></div>
+          </form>
+
+          <div class="contact__links">
+            <a
+              class="chip chip--icon"
+              href="mailto:wahdasiregar10@gmail.com"
+              target="_blank"
+              rel="noopener"
+            >
+              <svg class="icon" viewBox="0 0 24 24" aria-hidden="true">
+                <path
+                  fill="currentColor"
+                  d="M20 4H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2Zm0 4-8 5L4 8V6l8 5 8-5v2Z"
+                />
+              </svg>
+              <span>Email</span>
+            </a>
+
+            <a
+              class="chip chip--icon"
+              href="https://wa.me/6281284502849"
+              target="_blank"
+              rel="noopener"
+            >
+              <svg class="icon" viewBox="0 0 24 24" aria-hidden="true">
+                <path
+                  fill="currentColor"
+                  d="M12 2a10 10 0 0 0-8.66 15L2 22l5.2-1.37A10 10 0 1 0 12 2Zm0 18a8 8 0 0 1-4.1-1.13l-.29-.17-3.08.81.82-3-.18-.31A8 8 0 1 1 12 20Zm4.44-5.65c-.25-.13-1.47-.73-1.7-.81s-.4-.13-.57.13-.65.81-.8.98-.29.19-.54.06a6.58 6.58 0 0 1-1.94-1.2 7.25 7.25 0 0 1-1.33-1.66c-.14-.25 0-.38.1-.5l.38-.44c.13-.15.17-.25.25-.42s.04-.31-.02-.44-.57-1.38-.78-1.9c-.2-.48-.4-.42-.57-.43h-.49c-.17 0-.44.06-.67.31s-.88.86-.88 2.1.9 2.44 1.02 2.61a9.46 9.46 0 0 0 3.62 3.37c.45.19.8.3 1.08.38.45.14.87.12 1.2.07.36-.05 1.47-.6 1.68-1.18s.21-1.08.15-1.18-.22-.16-.47-.29Z"
+                />
+              </svg>
+              <span>WhatsApp</span>
+            </a>
+
+            <a
+              class="chip chip--icon"
+              href="https://www.instagram.com/wahdaalya"
+              target="_blank"
+              rel="noopener"
+            >
+              <svg class="icon" viewBox="0 0 24 24" aria-hidden="true">
+                <path
+                  fill="currentColor"
+                  d="M7 2h10a5 5 0 0 1 5 5v10a5 5 0 0 1-5 5H7a5 5 0 0 1-5-5V7a5 5 0 0 1 5-5Zm10 2H7a3 3 0 0 0-3 3v10a3 3 0 0 0 3 3h10a3 3 0 0 0 3-3V7a3 3 0 0 0-3-3Zm-5 4a5 5 0 1 1 0 10 5 5 0 0 1 0-10Zm0 2a3 3 0 1 0 0 6 3 3 0 0 0 0-6Zm5.5-.9a1.1 1.1 0 1 1 0 2.2 1.1 1.1 0 0 1 0-2.2Z"
+                />
+              </svg>
+              <span>Instagram</span>
+            </a>
+
+            <a
+              class="chip chip--icon"
+              href="https://linkedin.com/in/wahdaalyasadira"
+              target="_blank"
+              rel="noopener"
+            >
+              <svg class="icon" viewBox="0 0 24 24" aria-hidden="true">
+                <path
+                  fill="currentColor"
+                  d="M4 3.5A2.5 2.5 0 1 1 4 8.5 2.5 2.5 0 0 1 4 3.5ZM2.5 21V9.5h3V21h-3Zm6.5 0V9.5h2.9v1.6h.04c.4-.76 1.4-1.56 2.88-1.56 3.08 0 3.65 2.03 3.65 4.67V21h-3v-5.52c0-1.32-.03-3.02-1.84-3.02-1.84 0-2.12 1.44-2.12 2.92V21h-3Z"
+                />
+              </svg>
+              <span>LinkedIn</span>
+            </a>
+
+            <a
+              class="chip chip--icon"
+              href="https://github.com/wahdaalya"
+              target="_blank"
+              rel="noopener"
+            >
+              <svg class="icon" viewBox="0 0 24 24" aria-hidden="true">
+                <path
+                  fill="currentColor"
+                  d="M12 2a10 10 0 0 0-3.16 19.49c.5.09.68-.22.68-.48v-1.7c-2.78.6-3.37-1.18-3.37-1.18-.45-1.15-1.1-1.46-1.1-1.46-.9-.62.07-.6.07-.6 1 .07 1.53 1.03 1.53 1.03.89 1.53 2.33 1.09 2.9.83.09-.64.35-1.09.63-1.34-2.22-.25-4.56-1.11-4.56-4.95 0-1.09.39-1.98 1.03-2.68-.1-.25-.45-1.27.1-2.65 0 0 .84-.27 2.75 1.02A9.56 9.56 0 0 1 12 6.8c.85 0 1.7.11 2.5.33 1.9-1.29 2.74-1.02 2.74-1.02.56 1.38.21 2.4.11 2.65.64.7 1.02 1.59 1.02 2.68 0 3.85-2.34 4.7-4.57 4.95.36.31.68.92.68 1.86v2.76c0 .27.18.58.69.48A10 10 0 0 0 12 2Z"
+                />
+              </svg>
+              <span>GitHub</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+      <div class="container footer__inner">
+        © 2026 Wahda Alya Sadira. Dibuat dengan HTML & CSS murni.
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
