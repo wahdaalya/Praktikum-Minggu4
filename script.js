@@ -75,8 +75,8 @@ document.addEventListener('DOMContentLoaded', function () {
   }
 
   function isValidEmail(email) {
-    return /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email);
-  }
+  return email.includes('@') && email.includes('.');
+}
 
   if (contactForm && nameInput && emailInput && messageInput && formFeedback) {
     contactForm.addEventListener('submit', function (event) {
@@ -153,3 +153,4 @@ document.addEventListener('DOMContentLoaded', function () {
   window.addEventListener('scroll', runCountersIfVisible);
   runCountersIfVisible();
 });
+
