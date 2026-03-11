@@ -5,6 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>wahda.web — Portfolio</title>
     <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    />
   </head>
 
   <body>
@@ -458,109 +462,84 @@
 
     <!-- CONTACT -->
     <section class="contact section" id="contact">
-      <div class="container">
-        <h2 class="contact__title">Contact Me</h2>
+  <div class="container">
+    <h2 class="contact__title">Contact Me</h2>
 
-        <div class="contact__card">
-          <form
-            class="contact__form"
-            id="contact-form"
-            action="mailto:wahdasiregar10@gmail.com"
-            method="post"
-            enctype="text/plain"
-          >
-            <input id="contact-name" type="text" name="name" placeholder="Your Name" required />
-            <input id="contact-email" type="email" name="email" placeholder="Your Email" required />
-            <textarea
-              id="contact-message"
-              name="message"
-              rows="6"
-              placeholder="Your Message"
-              required
-            ></textarea>
-            <button type="submit" class="contact__btn">Send Message</button>
-            <div id="form-feedback" class="form-feedback" aria-live="polite"></div>
-          </form>
+    <div class="contact__card">
+      <form
+        class="contact__form"
+        id="contact-form"
+        action="mailto:wahdasiregar10@gmail.com"
+        method="post"
+        enctype="text/plain"
+      >
+        <input id="contact-name" type="text" name="name" placeholder="Your Name" required />
+        <input id="contact-email" type="email" name="email" placeholder="Your Email" required />
+        <textarea
+          id="contact-message"
+          name="message"
+          rows="6"
+          placeholder="Your Message"
+          required
+        ></textarea>
+        <button type="submit" class="contact__btn">Send Message</button>
+        <div id="form-feedback" class="form-feedback" aria-live="polite"></div>
+      </form>
 
-          <div class="contact__links">
-            <a
-              class="chip chip--icon"
-              href="mailto:wahdasiregar10@gmail.com"
-              target="_blank"
-              rel="noopener"
-            >
-              <svg class="icon" viewBox="0 0 24 24" aria-hidden="true">
-                <path
-                  fill="currentColor"
-                  d="M20 4H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2Zm0 4-8 5L4 8V6l8 5 8-5v2Z"
-                />
-              </svg>
-              <span>Email</span>
-            </a>
+      <div class="contact__links">
+        <a
+          class="chip chip--icon"
+          href="mailto:wahdasiregar10@gmail.com"
+          target="_blank"
+          rel="noopener"
+        >
+          <i class="fa-regular fa-envelope"></i>
+          <span>Email</span>
+        </a>
 
-            <a
-              class="chip chip--icon"
-              href="https://wa.me/6281284502849"
-              target="_blank"
-              rel="noopener"
-            >
-              <svg class="icon" viewBox="0 0 24 24" aria-hidden="true">
-                <path
-                  fill="currentColor"
-                  d="M12 2a10 10 0 0 0-8.66 15L2 22l5.2-1.37A10 10 0 1 0 12 2Zm0 18a8 8 0 0 1-4.1-1.13l-.29-.17-3.08.81.82-3-.18-.31A8 8 0 1 1 12 20Zm4.44-5.65c-.25-.13-1.47-.73-1.7-.81s-.4-.13-.57.13-.65.81-.8.98-.29.19-.54.06a6.58 6.58 0 0 1-1.94-1.2 7.25 7.25 0 0 1-1.33-1.66c-.14-.25 0-.38.1-.5l.38-.44c.13-.15.17-.25.25-.42s.04-.31-.02-.44-.57-1.38-.78-1.9c-.2-.48-.4-.42-.57-.43h-.49c-.17 0-.44.06-.67.31s-.88.86-.88 2.1.9 2.44 1.02 2.61a9.46 9.46 0 0 0 3.62 3.37c.45.19.8.3 1.08.38.45.14.87.12 1.2.07.36-.05 1.47-.6 1.68-1.18s.21-1.08.15-1.18-.22-.16-.47-.29Z"
-                />
-              </svg>
-              <span>WhatsApp</span>
-            </a>
+        <a
+          class="chip chip--icon"
+          href="https://wa.me/6281284502849"
+          target="_blank"
+          rel="noopener"
+        >
+          <i class="fa-brands fa-whatsapp"></i>
+          <span>WhatsApp</span>
+        </a>
 
-            <a
-              class="chip chip--icon"
-              href="https://www.instagram.com/wahdaalya"
-              target="_blank"
-              rel="noopener"
-            >
-              <svg class="icon" viewBox="0 0 24 24" aria-hidden="true">
-                <path
-                  fill="currentColor"
-                  d="M7 2h10a5 5 0 0 1 5 5v10a5 5 0 0 1-5 5H7a5 5 0 0 1-5-5V7a5 5 0 0 1 5-5Zm10 2H7a3 3 0 0 0-3 3v10a3 3 0 0 0 3 3h10a3 3 0 0 0 3-3V7a3 3 0 0 0-3-3Zm-5 4a5 5 0 1 1 0 10 5 5 0 0 1 0-10Zm0 2a3 3 0 1 0 0 6 3 3 0 0 0 0-6Zm5.5-.9a1.1 1.1 0 1 1 0 2.2 1.1 1.1 0 0 1 0-2.2Z"
-                />
-              </svg>
-              <span>Instagram</span>
-            </a>
+        <a
+          class="chip chip--icon"
+          href="https://www.instagram.com/wahdaalya"
+          target="_blank"
+          rel="noopener"
+        >
+          <i class="fa-brands fa-instagram"></i>
+          <span>Instagram</span>
+        </a>
 
-            <a
-              class="chip chip--icon"
-              href="https://linkedin.com/in/wahdaalyasadira"
-              target="_blank"
-              rel="noopener"
-            >
-              <svg class="icon" viewBox="0 0 24 24" aria-hidden="true">
-                <path
-                  fill="currentColor"
-                  d="M4 3.5A2.5 2.5 0 1 1 4 8.5 2.5 2.5 0 0 1 4 3.5ZM2.5 21V9.5h3V21h-3Zm6.5 0V9.5h2.9v1.6h.04c.4-.76 1.4-1.56 2.88-1.56 3.08 0 3.65 2.03 3.65 4.67V21h-3v-5.52c0-1.32-.03-3.02-1.84-3.02-1.84 0-2.12 1.44-2.12 2.92V21h-3Z"
-                />
-              </svg>
-              <span>LinkedIn</span>
-            </a>
+        <a
+          class="chip chip--icon"
+          href="https://linkedin.com/in/wahdaalyasadira"
+          target="_blank"
+          rel="noopener"
+        >
+          <i class="fa-brands fa-linkedin-in"></i>
+          <span>LinkedIn</span>
+        </a>
 
-            <a
-              class="chip chip--icon"
-              href="https://github.com/wahdaalya"
-              target="_blank"
-              rel="noopener"
-            >
-              <svg class="icon" viewBox="0 0 24 24" aria-hidden="true">
-                <path
-                  fill="currentColor"
-                  d="M12 2a10 10 0 0 0-3.16 19.49c.5.09.68-.22.68-.48v-1.7c-2.78.6-3.37-1.18-3.37-1.18-.45-1.15-1.1-1.46-1.1-1.46-.9-.62.07-.6.07-.6 1 .07 1.53 1.03 1.53 1.03.89 1.53 2.33 1.09 2.9.83.09-.64.35-1.09.63-1.34-2.22-.25-4.56-1.11-4.56-4.95 0-1.09.39-1.98 1.03-2.68-.1-.25-.45-1.27.1-2.65 0 0 .84-.27 2.75 1.02A9.56 9.56 0 0 1 12 6.8c.85 0 1.7.11 2.5.33 1.9-1.29 2.74-1.02 2.74-1.02.56 1.38.21 2.4.11 2.65.64.7 1.02 1.59 1.02 2.68 0 3.85-2.34 4.7-4.57 4.95.36.31.68.92.68 1.86v2.76c0 .27.18.58.69.48A10 10 0 0 0 12 2Z"
-                />
-              </svg>
-              <span>GitHub</span>
-            </a>
-          </div>
-        </div>
+        <a
+          class="chip chip--icon"
+          href="https://github.com/wahdaalya"
+          target="_blank"
+          rel="noopener"
+        >
+          <i class="fa-brands fa-github"></i>
+          <span>GitHub</span>
+        </a>
       </div>
-    </section>
+    </div>
+  </div>
+</section>
 
     <!-- FOOTER -->
     <footer class="footer">
@@ -572,3 +551,4 @@
     <script src="script.js"></script>
   </body>
 </html>
+
